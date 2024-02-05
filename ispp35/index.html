@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Сладость</title>
+</head>
+<body>
+    <body bgcolor="#deb887"></body>
+    <!--Шапка сайта с логотипом и панелью навигации-->
+    <header>
+        <a href="index.html">
+            <img src="assets/img/logo.svg" class="logo" alt="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="cakes.html">Готовые торты</a></li>
+                <li><a href="filling.html">Начинки</a></li>
+                <li><a href="delivery.html">Доставка</a></li>
+                <li><a href="index.html#feedback">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <!--Секуция рекламого баннера-->
+     <section class="banner">
+        <div class="content">
+            <h1>ДОМАШНЯЯ КОНДИТЕРСКАЯ</h1>
+            <h2>СДЕЛАНО С ЛЮБОВЬЮ...</h2>
+        </div>
+      </section>
+
+    <!--Наши приемущества-->
+    <section class="advantages">
+        <div class="content">
+            <div class="advantage">
+                <img src="assets/img/icon_1.png" alt="Натуральные продукты">
+                <p>Только<br>натурльные продукты</p>
+            </div>
+            <div class="advantage">
+                <img src="assets/img/icon_2.png" alt="Без консервантов">
+                <p>Без консервантов,<br>срок хранения 48 часов</p>
+            </div>
+            <div class="advantage">
+                <img src="assets/img/icon_3.png" alt="Индивидуальный дизайн">
+                <p>ндивидуальный дизайн</p>
+            </div>
+            <div class="advantage">
+                <img src="assets/img/icon_4.png" alt="Разные вкусы">
+                <p>Разнообразие<br>вкусов в одном торте</p>
+            </div>
+    </div>
+</section>
+
+<!--Выбор услуг-->
+<section class="select">
+    <div class="content">
+        <div class="select_cakes">
+            <div class="select_cake">
+                <img src="assets/img/select-cake-1.jpg" alt="Выбрать готовый торт">
+                <a href="cakes.html">ВЫБРАТЬ ГОТОВЫЙ</a>
+            </div>
+            <div class="select_cake">
+                <img src="assets/img/select-cake-2.jpg" alt="Заказать свой торт">
+                <a href="index.html#feedback">СОЗДАТЬ СВОЙ</a>
+            </div>
+            <h2>"А ЧЕГО ЖЕЛАЕТЕ ВЫ?"</h2>
+        </div>
+    </div>
+</section>
+
+<!--о компании-->
+    <section class="about">
+        <div class="about_wrap">
+            <div class="about_text">
+                <p>Меня зовут Екатерина. Я - профессиональный кондитер и хозяйка Моей Сладости</p>
+                <p>Мой девиз – честная и открытая работа, индивидуальный подход.</p>
+                <p>В моих тортиках только натуральные ингредиенты и качественные продукты</p>
+
+            </div>
+        </div>
+    </section> 
+
+<!--отзывы-->
+<section class="reviews">
+    <div class="content">
+        <div class="review">
+            <img src="assets/img/review-1.jpg" alt="Фото отзыв">
+            <div class="review_text">
+                <blockquote>
+                    Внимательное отношение к клиенту, вуснющий торт и некусачие цены!
+                    Огромное спасибо за удовольствие! Екатерине творчесих успехов!
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="assets/img/review-2.jpg" alt="Фото отзыв">
+            <div class="review_text">
+                <blockquote>
+                    Торт натуральный, выполнен искусно и подложка лишь подчеркнула 
+                    торжественное лакомство! Спасибо и успехов вашему бизнесу!
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="review">
+            <img src="assets/img/review-3.jpg" alt="Фото отзыв">
+            <div class="review_text">
+                <blockquote>
+                    Изысканный вкус тортиков не оставил равнодушным ни одного 
+                    сотрудника нашего Холдинга! Огромное спасибо за настроение, сладкую 
+                    жизнь и превосходный вкус и дизайн Ваших тортов
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--обратная связь-->
+<section class="feedback" id="feedback">
+    <div class="content">
+        <h2>ГОТОВ К ЗАКАЗУ ИЛИ НЕ МОЖЕШЬ ОПРЕДЕЛИТЬСЯ? ЗВОНИ!</h2>
+        <h3>+7 (222) 333-22-55</h3>
+        <h4>ИЛИ ОСТАВЬ НАМ СВОЙ НОМЕР И МЫ ПЕРЕЗВОНИМ САМИ</h4>
+        <form action="answer.html">
+            <div class="form_contact">
+                <input type="text" placeholder="НАПИШИТЕ СВОЁ ИМЯ">
+                <input type="tel" name="tel-number" id="tel-number"
+                title=" например, 89041041706" placeholder="НОМЕР ТЕЛЕФОНА">
+            </div>
+            <div class="form_download">
+                ЕСТЬ ФОТО ПРИМЕР?
+                <label for="download">ЗАГРУЖАЙ ЗДЕСЬ</label>
+                <input type="file" id="download" name="download" accept=" .png, .jpg, .jpeg">
+            </div>
+            <div class="form_submit">
+                <input type="checkbox" name="personal" id="personal">
+                <label for="personal">
+                    Я СОГЛАСЕН НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ
+                </label>
+            </div>
+            <input type="submit" value="ПООБЩАТЬСЯ">
+        </form>
+    </div>
+</section>
+
+<!--блок с картой-->
+<section class="map">
+    <div class="content">
+        <h2>МЫ НА КАРТЕ</h2>
+        <h2>г.Архангельск, ул. Александра Грина, д.25</h2>
+    </div>
+</section>
+
+<!--ПОДВАЛ-->
+<footer>
+    <div class="content">
+        <div class="footer_main">
+            <div class="footer_info">
+            <p>Домашняя кондитерская<br>"Моя Сладость"</p>
+            <p>ИП Иванов. И. И.</p>
+            <p>Все права защищены</p>
+        </div>
+            <div class="footer_social">
+                <h2>ГОТОВ К ЗАКАЗУ ИЛИ НЕ МОЖЕШЬ ОПРЕДЕЛИТЬСЯ? ЗВОНИ!</h2>
+                <a href="tel:+72223332255">
+                    <h3>+7 (222) 333-22-55</h3>
+                </a>
+                <p>Мы в социальных сетях</p>
+                <a href="http://vk.com">
+                    <img src="assets/img/icon_5.png" alt="Вконтакте">
+                </a>
+            </div>
+            <div class="footer_menu">
+                <nav>
+                    <ul>
+                        <li><a href="cakes.html">Готовые торты</a></li>
+                        <li><a href="filling.html">Начинки</a></li>
+                        <li><a href="delivery.html">Доставка</a></li>
+                        <li><a href="index.html#feedback">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer_add">
+            <p>При создании учебного сайта использоваись изображения с портала <a href="https://pixabay.com/ru/" target="blank">pixabay.com</a></p>
+            <p>Источнки вдохновения и текстового содержимого:
+                <a href="https://master-chocolate.ru/" target="blank">
+                master-chocolate.ru
+                </a>
+                 и
+                 <a href="https://www.sorokatort.ru/" target="blank">
+                    www.sorokatort.ru
+                 </a>
+            </p>    
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
